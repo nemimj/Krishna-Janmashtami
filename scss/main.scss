@@ -1,0 +1,39 @@
+@import 'utility';
+@import 'config';
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+#header{
+      
+    #nav{
+        .main-heading{
+            background-color: $light-green;
+            text-align: center;
+            letter-spacing: 2px;
+            font-size: 1.1rem;
+        }   
+    }
+
+    .header{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 2rem;
+        background-color: $light-cream;
+        &-info{
+            display: flex;
+            align-items: center;
+            padding: 0 2rem;
+            h1{
+                font-family: 'Catamaran', sans-serif;
+                font-size: 4rem;
+            }
+        }
+
+        &-img{
+            text-align: center;
+            img{
+                width: 80%;
+                border-radius: 10px;
+            }
+        }
+    }
+}
