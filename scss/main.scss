@@ -5,9 +5,9 @@
 #nav{
     position: sticky;
     top: 0;
-    left: 0;
+    z-index: 100;
+    background-color: $light-green;
     .main-heading{
-        background-color: $light-green;
         text-align: center;
         letter-spacing: 2px;
         font-size: 1.1rem;
@@ -91,7 +91,16 @@
     }
 }
 
-
+#footer{
+    .heart{
+        margin-right: 3px;
+    }
+    p{
+        text-align: center;
+        padding: 1rem
+        
+    }
+}
 
 
 

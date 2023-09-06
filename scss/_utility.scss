@@ -37,3 +37,17 @@ h1,h2,h3,h4,h5,h6{
     padding: 1rem 0.5rem;
     font-size: 3rem;
 }
+
+
+.heart {
+	color: #e00;
+	animation: beat 0.50s infinite alternate;
+	transform-origin: center;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.2); }
+}

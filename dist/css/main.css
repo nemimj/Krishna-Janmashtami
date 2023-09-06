@@ -27,12 +27,24 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1rem 0.5rem;
   font-size: 3rem; }
 
+.heart {
+  color: #e00;
+  animation: beat 0.50s infinite alternate;
+  transform-origin: center;
+  display: inline-block;
+  margin-right: 6px; }
+
+/* Heart beat animation */
+@keyframes beat {
+  to {
+    transform: scale(1.2); } }
+
 #nav {
   position: sticky;
   top: 0;
-  left: 0; }
+  z-index: 100;
+  background-color: #A8DF8E; }
   #nav .main-heading {
-    background-color: #A8DF8E;
     text-align: center;
     letter-spacing: 2px;
     font-size: 1.1rem; }
@@ -85,6 +97,13 @@ h1, h2, h3, h4, h5, h6 {
           margin-top: 1rem; }
         #home-a .boxes .box-info a {
           font-size: 1.3rem; }
+
+#footer .heart {
+  margin-right: 3px; }
+
+#footer p {
+  text-align: center;
+  padding: 1rem; }
 
 @media (max-width: 1024px) {
   #header .header-info h1 {
