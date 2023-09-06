@@ -34,14 +34,15 @@
 }
 
 @media (max-width:629px) {
+    #nav{
+        .main-heading{
+            font-size: 0.8rem;
+            padding: 0.5rem 0;
+        }
+    }
     #header{
 
-        #nav{
-            .main-heading{
-                font-size: 0.8rem;
-                padding: 0.5rem 0;
-            }
-        }
+      
         .header{
             grid-template-columns: repeat(1,1fr);
             &-info{

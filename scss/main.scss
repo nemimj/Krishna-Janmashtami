@@ -1,18 +1,21 @@
 @import 'utility';
 @import 'config';
 
+    
+#nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    .main-heading{
+        background-color: $light-green;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 1.1rem;
+    }   
+}
+
 #header{
-      
-    #nav{
-        position: sticky;
-        top: 0;
-        .main-heading{
-            background-color: $light-green;
-            text-align: center;
-            letter-spacing: 2px;
-            font-size: 1.1rem;
-        }   
-    }
+  
 
     .header{
         display: grid;
