@@ -70,9 +70,7 @@ h1, h2, h3, h4, h5, h6 {
     #home-a .boxes .box {
       background-color: #ffffff;
       border-radius: 10px;
-      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-      display: grid;
-      place-content: center; }
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; }
       #home-a .boxes .box-img {
         height: 250px; }
         #home-a .boxes .box-img img {
