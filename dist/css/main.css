@@ -14,8 +14,18 @@ a {
 img {
   width: 80%; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Catamaran', sans-serif; }
+
+.text-center {
+  text-align: center; }
+
 .capitalize {
   text-transform: capitalize; }
+
+.middle-heading {
+  padding: 1rem 0.5rem;
+  font-size: 3rem; }
 
 #header #nav {
   position: sticky;
@@ -37,7 +47,6 @@ img {
     padding: 0 2rem;
     text-align: center; }
     #header .header-info h1 {
-      font-family: 'Catamaran', sans-serif;
       font-size: 4rem; }
   #header .header-img {
     transform: translateY(-650px);
@@ -50,6 +59,33 @@ img {
     #header .header-img img {
       width: 80%;
       border-radius: 10px; }
+
+#home-a {
+  background-color: #eeeeee; }
+  #home-a .boxes {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem; }
+    #home-a .boxes .box {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      display: grid;
+      place-content: center; }
+      #home-a .boxes .box-img {
+        height: 250px; }
+        #home-a .boxes .box-img img {
+          height: 100%;
+          width: 100%;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px; }
+      #home-a .boxes .box-info {
+        padding: 2rem 1rem; }
+        #home-a .boxes .box-info p {
+          margin-top: 1rem; }
+        #home-a .boxes .box-info a {
+          font-size: 1.3rem; }
 
 @media (max-width: 1024px) {
   #header .header-info h1 {
@@ -80,4 +116,13 @@ img {
     to {
       transform: translateX(0); } }
       #header .header-img img {
-        width: 100%; } }
+        width: 100%; }
+  #home-a h2 {
+    font-size: 1.5rem; }
+  #home-a .boxes {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 1rem; }
+    #home-a .boxes .box-img {
+      height: 200px; }
+    #home-a .boxes .box-info a {
+      font-size: 1.2rem; } }

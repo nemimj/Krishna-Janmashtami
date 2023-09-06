@@ -68,5 +68,30 @@
         }
     }
 
+
+    #home{
+        &-a{
+            h2{
+                font-size: 1.5rem;
+            }
+            .boxes{
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                padding: 1rem;
+                .box{
+                    &-img{
+                        height: 200px;
+                    }
+                &-info{
+                  
+                    a{
+                        font-size: 1.2rem
+                    }
+                }
+            }
+            }
+        }
+    }
+    
+   
    
 }
