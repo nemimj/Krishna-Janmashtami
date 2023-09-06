@@ -9,7 +9,8 @@ body {
   line-height: 1.6; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #6a5656; }
 
 img {
   width: 80%; }
@@ -40,9 +41,6 @@ h1, h2, h3, h4, h5, h6 {
     transform: scale(1.2); } }
 
 #nav {
-  position: sticky;
-  top: 0;
-  z-index: 100;
   background-color: #A8DF8E; }
   #nav .main-heading {
     text-align: center;
